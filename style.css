@@ -1,0 +1,143 @@
+* {
+  border: solid 1px red;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: static;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  flex-wrap: wrap;
+  flex-basis: content;
+  width: 70%;
+  height: 100%;
+  /* z-index: -1; */
+  top: 71px;
+}
+
+.main-card {
+  position: relative;
+  width: 1300px;
+  height: 400px;
+  top: 400px;
+  border: 2px solid rgb(25, 28, 44);
+}
+
+body {
+  height: 100%;
+}
+
+.card {
+  /* display: flex;
+  flex: 1 1 100px; */
+  width: 500px;
+  height: 250px;
+  position: relative;
+  top: 200px;
+  max-width: 650px;
+  border: 2px solid rgb(25, 28, 44);
+}
+
+.info {
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.name {
+  position: absolute;
+  left: 35px;
+  top: 5px;
+  font-size: 36px;
+  margin: 10px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+}
+
+ul li {
+  margin: 5px 5px;
+}
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  list-style-type: none;
+}
+
+.michael {
+  display: block;
+  position: absolute;
+  /* z-index: 1; */
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 60%;
+  top: 110px;
+}
+
+.bio {
+  position: absolute;
+  top: 285px;
+  max-width: 1030px;
+  left: 113px;
+}
+
+.cardholder {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.panel {
+  position: absolute;
+  left: 0px;
+  width: 30%;
+  height: 100%;
+  /* border-right: solid 3px; */
+}
+
+.about {
+  position: relative;
+  text-align: end;
+  right: 15px;
+  top: 380px;
+  font-size: 28px;
+  /* border-right: solid 3px; */
+}
+
+.work {
+  position: relative;
+  text-align: end;
+  right: 15px;
+  top: 605px;
+  font-size: 28px;
+  /* border-right: solid 3px; */
+}
+
+.footer h3 {
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* @media screen and (min-width:300px) {} */
